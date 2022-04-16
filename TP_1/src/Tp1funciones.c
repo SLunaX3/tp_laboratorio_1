@@ -55,7 +55,7 @@ void mostrarPrecios(char* nombre, float precio, float precioDebito, float precio
 	printf("a) Precio con tarjeta de debito: $ %.2f \n", precioDebito);
 	printf("b) Precio con tarjeta de credito: $ %.2f \n", precioCredito);
 	printf("c) Precio pagando con bitcoin: %f BTC \n", precioBtC);
-	printf("d) Mostrar precio Unitario: $ %f \n\n", precioUnit);
+	printf("d) Mostrar precio unitario: $ %f \n\n", precioUnit);
 }
 
 /// @brief Permite y valdida el ingreso de datos
