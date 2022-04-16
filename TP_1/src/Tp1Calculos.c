@@ -15,7 +15,7 @@
 
 /// @brief Calcula el pago en debito aplicando el %10 de descuento predefinido
 ///
-/// @param precio El precio del vuelo
+/// @param precio El precio del vuelo según la aerolínea
 /// @return Devuelve el precio El precio del vuelo con el descuento
 float pagoDebito(float precio)
 {
@@ -26,7 +26,7 @@ float pagoDebito(float precio)
 
 /// @brief Calcula el pago en debito aplicando el %25 de recargo predefinido
 ///
-/// @param precio del vuelo
+/// @param precio El precio del vuelo según la aerolínea
 /// @return Devuelve el precio del vuelo con el recargo
 float pagoCredito(float precio)
 {
@@ -37,7 +37,7 @@ float pagoCredito(float precio)
 
 /// @brief Calcula el precio de los pagos en bitcoins
 ///
-/// @param precio El precio del vuelo
+/// @param precio El precio del vuelo según la aerolínea
 /// @return Devuelve el precio el precio del vuelo en bitcoins
 float pagoBtC(float precio)
 {
@@ -48,8 +48,8 @@ float pagoBtC(float precio)
 
 /// @brief calcula precio por kilometro
 ///
-/// @param precio El precio del vuelo
-/// @param km La distancia del vuelo en kilómetros
+/// @param precio El precio del vuelo según la aerolínea
+/// @param km La distancia ingresada del vuelo en kilómetros
 /// @return Devuelve precio el precio por kilometro
 float precioXkm(float precio, float km)
 {

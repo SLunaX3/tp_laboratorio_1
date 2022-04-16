@@ -41,10 +41,10 @@ int menu(float km, float precioAA, float precioLatam)
 /// @brief Muestra los precios de la aerolinea y valores de pagos  con el formato determinado
 ///
 /// @param pNombre El nombre de la aerolinea a mostrar
-/// @param precio El precio del vuelo
-/// @param precioDebito El precio con descuento por pago en debito
-/// @param precioCredito El precio con recargo por pago en credito
-/// @param precioBtC El precio del vuelo en bitcoins
+/// @param precio El precio del vuelo por aerolínea
+/// @param precioDebito El precio por aerolínea con descuento por pago en debito
+/// @param precioCredito El precio por aerolínea con recargo por pago en credito
+/// @param precioBtC El precio por aerolínea del vuelo en bitcoins
 /// @param precioUnit El precio del vuelo por kilometro
 
 void mostrarPrecios(char* pNombre, float precio, float precioDebito, float precioCredito, float precioBtC, float precioUnit)
@@ -91,8 +91,8 @@ float utn_getNumero(char* pMensaje, char* pMensajeError, int minimo)
 
 /// @brief Calcula los valores según cada método de pago
 ///
-/// @param km La distancia de viaje en kilómetros
-/// @param precio El precio del vuelo
+/// @param km La distancia ingresada del viaje en kilómetros
+/// @param precio El precio del vuelo según la aerolinea
 /// @param pPrecioDebito Variable utilizada para modificar el valor de "precioDebito" por referencia
 /// @param pPrecioCredito Variable utilizada para modificar el valor de "precioCredito" por referencia
 /// @param pPrecioBtC Variable utilizada para modificar el valor de "precioBtC" por referencia
