@@ -42,9 +42,9 @@ int main()
 				printf("No se ingresó los kilómetros de viaje. \n\n");
 				continue;
 			}
-			precioAA = utn_getNumero("Ingrese precio Aerolineas Argentinas\n", msjErrorVuelos, 1);
+			precioAA = utn_getNumero("Ingrese precio Aerolineas Argentinas: \n", msjErrorVuelos, 1);
 
-			precioLatam = utn_getNumero("Ingrese precio Latam\n", msjErrorVuelos, 1);
+			precioLatam = utn_getNumero("Ingrese precio Latam: \n", msjErrorVuelos, 1);
 			break;
 		case 3:
 			if(km==0)
