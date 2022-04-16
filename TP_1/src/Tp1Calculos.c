@@ -3,6 +3,8 @@
  *
  *      Author: Luna, Sonia
  *      División: 1G
+ *
+ 	 Documnetación también aquí para guía extra
  */
 
 #include <stdio.h>

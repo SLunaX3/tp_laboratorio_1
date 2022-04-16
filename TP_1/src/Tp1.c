@@ -96,5 +96,5 @@ int main()
 	while(opcion!=6);
 
 
-	return EXIT_SUCCESS;
+	return 0;
 }
